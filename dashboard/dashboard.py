@@ -32,9 +32,8 @@ filtered_df = main_df[
 st.subheader('Dataset Preview')
 st.dataframe(filtered_df.head())
 
-# =====================================
+
 # VISUALISASI 1
-# =====================================
 
 weather_label = {
     1: 'Clear',
@@ -72,9 +71,8 @@ ax.set_ylabel('Rata-rata Penyewaan')
 
 st.pyplot(fig)
 
-# =====================================
+
 # VISUALISASI 2
-# =====================================
 
 st.subheader('Rata-rata Penyewaan per Jam')
 
@@ -101,9 +99,8 @@ ax2.set_ylabel('Rata-rata Penyewaan')
 
 st.pyplot(fig2)
 
-# =====================================
+
 # INSIGHT
-# =====================================
 
 st.subheader('Insight')
 
