@@ -61,7 +61,7 @@ fig, ax = plt.subplots(figsize=(8,5))
 sns.barplot(
     x=weather_rentals.index,
     y=weather_rentals.values,
-    palette='Blues',
+    color='#4C72B0',
     ax=ax
 )
 

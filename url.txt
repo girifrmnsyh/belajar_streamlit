@@ -1,1 +1,14 @@
+CARA MENJALANKAN PROJECT
+
+1. Clone Repository
+https://github.com/girifrmnsyh/belajar_streamlit.git
+
+2. Masuk ke folder Project
+cd belajar_streamlit
+
+3. Install Dependencies
+pip install -r requirements.txt
+
+DEPLOYMENT STREAMLIT
+Dashboard dapat di akses melalui:
 https://coding-camp-ds-giri.streamlit.app/
