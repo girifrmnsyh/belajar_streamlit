@@ -63,4 +63,3 @@ st.subheader('Rata-rata Penyewaan per Jam')
 hourly_rentals = filtered_df.groupby('hr')['cnt'].mean()
 
 fig2, ax2 = plt.subplots(figsize=(10,5))
-''')
